@@ -140,10 +140,14 @@ upper = Q3 + 1.5 * IQR
 ---
 
 ## Project Structure
+
+```text
 Superstore-Sales-and-Profit-Analytics-System/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+├── data/
+│   └── Sample - Superstore.csv
 ├── notebook/
 │   └── Superstore Sales and Profit Analytics System.ipynb
 └── assets/
@@ -155,7 +159,6 @@ Superstore-Sales-and-Profit-Analytics-System/
     ├── boxplot_by_category.png
     ├── feature_importance.png
     └── pca_visualization.png
-
 ---
 
 ## Data
